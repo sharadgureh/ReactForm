@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        background-color: rgb(250, 247, 247);
+        border: solid 2px rgba(0, 0, 255, 0.38);
+        border-radius: 30px;
+        margin: 2% 0%;
+        padding: 4% 4%;
+        width: 110%;
+        box-shadow: 1px 2px 30px rgba(0, 0, 255, 0.177);
+}
+
+
+.input input {
+        background-color: transparent;
+}
+.input img{
+        width: 30px;
+}
